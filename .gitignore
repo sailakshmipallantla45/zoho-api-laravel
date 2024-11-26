@@ -1,0 +1,55 @@
+# Laravel & general PHP ignores
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+/.env.*.local
+/.vagrant
+Homestead.yaml
+Homestead.json
+.phpunit.result.cache
+*.log
+*.csv
+*.sqlite
+
+
+# Laravel specific
+/public/hot
+/public/mix-manifest.json
+/storage/app/*.sqlite
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/storage/debugbar/*
+/vendor/*
+/node_modules/*
+/public/storage/*
+/public/uploads/*
+
+# IDEs
+/.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Laravel test folders
+/phpunit.xml.dist
+
+# Ignore Composer's vendor directory
+/vendor/
+
+# Ignore JetBrains PhpStorm & other IDE files
+.idea/
+
+# Ignore sensitive files
+.env
+
+public/
+
+public/storage
